@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap');
+
 body {
+  font-family: 'Montserrat', sans-serif;
   background: #000;
   color: #fff;
+}
+h1 {
+  font-weight: 900;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:focus,.nav-link:hover {
+  color: #752f78;
+}
+.nav-link:active {
+  color: #9bef6e;
+}
+.btn-success {
+  background: #9bef6e;
+  color: #000;
+}
+.btn-success:hover {
+  background: #752f78;
 }
 
 .imagecontainer {
