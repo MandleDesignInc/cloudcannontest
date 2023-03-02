@@ -4,9 +4,16 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #000;
   color: #fff;
+  background-image: url("../images/stripes.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 60%;
 }
 h1 {
   font-weight: 900;
+}
+.headerimg {
+  max-width: 300px;
 }
 .nav-link {
   color: #fff;
@@ -60,6 +67,14 @@ h1 {
 
 .carousel-item .col-2 .card {
   background-color: transparent;
+}
+
+.footer {
+  font-size: 12px;
+}
+.footer img {
+  margin-bottom: 20px;
+  max-width: 200px;
 }
 
 @media (max-width: 767px) {
