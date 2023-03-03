@@ -72,6 +72,18 @@ h1 {
 .homerow {
   margin-bottom: 30px;
 }
+.homerowextra,.navbar {
+  margin-bottom: 80px !important;
+}
+
+.maincontent {
+  font-size: 30px;
+  text-align: center;
+}
+.maincontent {
+  padding-left:10%;
+  padding-right:10%;
+}
 
 .footer {
   font-size: 12px;
