@@ -3,15 +3,15 @@
 
       <div class="container">
 
-        <div class="row">
+        <div class="row homerow">
           <div class="col">
             <h1 class="editable">media for the metaverse.</h1>
             <p class="editable">Heist is  a new publisher of original journalism, art, and fiction that uses blockchain technology to offer lifetime subscriptions and create cool collectible assets.</p>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col">
+        <div class="row homerow">
+          <div class="col-md-3">
             <div class="imagecontainer">
               <img src="{{ page.images[0].image_path }}" class="img-fluid image_home" alt="{{ page.images.[0].title }}" />
               <div class="middle">
@@ -23,7 +23,7 @@
               </div>
             </div>
           </div>
-          <div class="col-5">
+          <div class="col-md-6">
             <div class="imagecontainer">
               <img src="{{ page.images[1].image_path }}" class="img-fluid image_home" alt="{{ page.images.[1].title }}" />
               <div class="middle">
@@ -35,7 +35,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-3">
             <div class="imagecontainer">
               <img src="{{ page.images[2].image_path }}" class="img-fluid image_home" alt="{{ page.images.[2].title }}" />
               <div class="middle">
@@ -48,8 +48,8 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
+        <div class="row homerow">
+          <div class="col-md-3">
             <div class="imagecontainer">
               <img src="{{ page.images[3].image_path }}" class="img-fluid image_home" alt="{{ page.images.[3].title }}" />
               <div class="middle">
@@ -61,7 +61,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-3">
             <div class="imagecontainer">
               <img src="{{ page.images[4].image_path }}" class="img-fluid image_home" alt="{{ page.images.[4].title }}" />
               <div class="middle">
@@ -73,7 +73,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-3">
             <div class="imagecontainer">
               <img src="{{ page.images[5].image_path }}" class="img-fluid image_home" alt="{{ page.images.[5].title }}" />
               <div class="middle">
@@ -85,7 +85,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-3">
             <div class="imagecontainer">
               <img src="{{ page.images[6].image_path }}" class="img-fluid image_home" alt="{{ page.images.[6].title }}" />
               <div class="middle">
@@ -99,21 +99,11 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row homerow">
           <div class="col">
             <p class="editable">
               EIST Media is the first curated web3 magazine with all original stories, journalism and art minted as an NFT, built from the ground up to change media as we know it.&nbsp; Launching with a limited mint of unique, hand-drawn Ethereum-based NFTs, members will take the power out of the C-Suites and away from the venture capitalists to empower new voices and jailbreak journalism from the click-obsessed confines of corporate media.
             </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <ul>
-            {% for post in site.posts %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-            </ul>
           </div>
         </div>
 
