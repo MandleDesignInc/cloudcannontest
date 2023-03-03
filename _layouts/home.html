@@ -13,7 +13,7 @@
         <div class="row homerow">
           <div class="col-md-3">
             <div class="imagecontainer">
-              <img src="{{ page.images[0].image_path }}" class="img-fluid image_home" alt="{{ page.images.[0].title }}" />
+              <img src="{{ page.images[0].image_path | resize: "200x400" }}" class="img-fluid image_home" alt="{{ page.images.[0].title }}" />
               <div class="middle">
                 <div class="text">
                   <h3>{{ page.images[0].title }}</h3>

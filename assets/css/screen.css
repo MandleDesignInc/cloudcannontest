@@ -75,6 +75,9 @@ h1 {
 .homerowextra,.navbar {
   margin-bottom: 80px !important;
 }
+.bottomspacer {
+  margin-bottom: 100px;
+}
 
 .maincontent {
   font-size: 30px;
