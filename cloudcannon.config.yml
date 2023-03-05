@@ -1,10 +1,4 @@
 _editables:
-  text:
-    italic: true
-  block:
-    format: p h3
-    undo: true
-    redo: true
   content:
     blockquote: true
     bold: true
