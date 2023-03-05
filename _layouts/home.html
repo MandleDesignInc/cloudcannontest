@@ -12,8 +12,8 @@
 
         <div class="row homerow">
           <div class="col-md-3">
-            <div class="imagecontainer">
-              <img src="{{ page.images[0].image_path | resize: "200x400" }}" class="img-fluid image_home" alt="{{ page.images.[0].title }}" />
+            <div class="imagecontainer hometopimage">
+              <img src="{{ page.images[0].image_path }}" class="img-fluid image_home" alt="{{ page.images.[0].title }}" />
               <div class="middle">
                 <div class="text">
                   <h3>{{ page.images[0].title }}</h3>
@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="imagecontainer">
+            <div class="imagecontainer hometopimage">
               <img src="{{ page.images[1].image_path }}" class="img-fluid image_home" alt="{{ page.images.[1].title }}" />
               <div class="middle">
                 <div class="text">
@@ -36,7 +36,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="imagecontainer">
+            <div class="imagecontainer hometopimage">
               <img src="{{ page.images[2].image_path }}" class="img-fluid image_home" alt="{{ page.images.[2].title }}" />
               <div class="middle">
                 <div class="text">
@@ -50,7 +50,7 @@
         </div>
         <div class="row homerowextra">
           <div class="col-md-3">
-            <div class="imagecontainer">
+            <div class="imagecontainer hometopimage">
               <img src="{{ page.images[3].image_path }}" class="img-fluid image_home" alt="{{ page.images.[3].title }}" />
               <div class="middle">
                 <div class="text">
@@ -62,7 +62,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="imagecontainer">
+            <div class="imagecontainer hometopimage">
               <img src="{{ page.images[4].image_path }}" class="img-fluid image_home" alt="{{ page.images.[4].title }}" />
               <div class="middle">
                 <div class="text">
@@ -74,7 +74,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="imagecontainer">
+            <div class="imagecontainer hometopimage">
               <img src="{{ page.images[5].image_path }}" class="img-fluid image_home" alt="{{ page.images.[5].title }}" />
               <div class="middle">
                 <div class="text">
@@ -86,7 +86,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="imagecontainer">
+            <div class="imagecontainer hometopimage">
               <img src="{{ page.images[6].image_path }}" class="img-fluid image_home" alt="{{ page.images.[6].title }}" />
               <div class="middle">
                 <div class="text">
@@ -111,11 +111,15 @@
 			<div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner" role="listbox">
           {% for item in page.carousel %}
-					<div class="carousel-item active">
+          {% if forloop.first %}
+            <div class="carousel-item active">
+          {% else %}
+            <div class="carousel-item">
+          {% endif %}
 						<div class="col-2">
 							<div class="card">
 								<div class="card-img">
-                  <div class="imagecontainer">
+                  <div class="imagecontainer carouselimg">
                     <img src="{{ item.image_path }}" class="img-fluid image_home" alt="{{ item.title }}" />
                     <div class="middle">
                       <div class="text">

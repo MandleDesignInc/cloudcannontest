@@ -52,6 +52,18 @@ h1 {
   bottom: 0;
 }
 
+.hometopimage {
+  height: 400px;
+}
+.hometopimage img {
+  object-fit: cover;
+  height: 400px;
+}
+.carouselimg img {
+  object-fit: cover;
+  height: 210px;
+}
+
 .imagecontainer:hover .image_home {
   opacity: 0.3;
 }
@@ -100,6 +112,10 @@ h1 {
   background: #9bef6e;
 }
 
+.carousel-control-next, .carousel-control-prev {
+  width: auto;
+}
+
 @media (max-width: 767px) {
 		.carousel-inner .carousel-item > div {
 			display: none;
@@ -113,7 +129,7 @@ h1 {
 	.carousel-inner .carousel-item-next,
 	.carousel-inner .carousel-item-prev {
 		display: flex;
-    column-gap: 40px;
+    column-gap: 50px;
 	}
 
 	/* medium and up screens */
