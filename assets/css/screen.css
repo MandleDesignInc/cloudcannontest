@@ -24,6 +24,9 @@ h1 {
 .nav-link:active {
   color: #9bef6e;
 }
+.navbar-home {
+  margin-top: 40px;
+}
 .btn-success {
   background: #9bef6e;
   color: #000;
