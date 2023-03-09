@@ -14,10 +14,10 @@
             {% for post in site.posts %}
             <div class="col-md-3">
             <div class="card blog" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="{{ post.thumbnail }}" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">{{ post.title }}</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">{{ post.teaser }}</p>
               <a href="{{ post.url }}" class="btn btn-success">Read More</a>
             </div>
             </div>

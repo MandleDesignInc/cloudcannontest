@@ -1,29 +1,17 @@
 ---
 layout: post
-title: Welcome to Jekyll!
+title: Blog Test 1
 date: 2023-02-24 16:49:40
-categories: jekyll update
+categories: default
+thumbnail: /assets/images/Layer-11.jpg
+teaser: This is a short teaser of the content on this page.
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut nunc sed ante iaculis ullamcorper. Etiam pretium sapien risus, eget iaculis dolor rutrum in. Nam semper nec ipsum eget posuere. Aenean ut congue nisi. Morbi justo velit, euismod id cursus non, cursus ac leo. Quisque lorem eros, imperdiet sed sollicitudin sed, accumsan eu ipsum. Mauris cursus mauris et elit auctor, id lobortis tortor malesuada. Sed porta bibendum metus, vitae placerat lacus varius id. Phasellus vestibulum mattis tortor, vel elementum nisi pharetra nec. Duis aliquam, eros nec porttitor aliquet, lacus lorem accumsan elit, at commodo est ipsum vitae lacus. Ut dapibus magna tempus sapien pharetra, nec pulvinar urna dignissim.
 
-Jekyll requires blog post files to be named according to the following format:
+Suspendisse consequat porta eros vel iaculis. Nunc vel augue vitae risus tempus suscipit vitae non enim. Suspendisse sodales sapien vitae ligula pretium, ac placerat ligula scelerisque. Duis tempor efficitur sagittis. Donec et lacinia nisi. Praesent accumsan pellentesque justo dapibus suscipit. In posuere odio ac quam scelerisque facilisis. Nam at euismod elit, quis pretium nisl. Vivamus sollicitudin convallis vehicula. Aenean scelerisque euismod mi eu dictum. Vivamus luctus commodo nisl nec malesuada. Integer non odio vitae enim iaculis elementum at a arcu. Quisque vitae urna vitae nibh consequat accumsan. Suspendisse nisl odio, vestibulum id vehicula at, lacinia quis ligula. Mauris scelerisque auctor sapien ac tincidunt.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Cras porttitor mauris eu finibus tincidunt. Integer sodales pretium ultricies. Cras ac quam quis quam maximus condimentum. Praesent eleifend nec sem id egestas. Duis mi leo, tempus in venenatis vel, blandit id lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque maximus posuere ipsum ut accumsan. Aliquam eu accumsan nibh. Etiam placerat facilisis consectetur. Integer non commodo quam. Nam venenatis, massa sit amet molestie consectetur, dolor dolor bibendum ex, non fermentum nunc sem a urna. Donec a interdum eros. Nunc vestibulum risus in orci aliquet vestibulum. Curabitur consequat libero eget arcu ornare dapibus. Aenean nec arcu ut nunc commodo bibendum.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Maecenas aliquam est eros, ac molestie tellus venenatis id. Pellentesque eu justo ut orci sagittis laoreet eu interdum ipsum. Suspendisse quis velit orci. Donec a lectus sagittis, condimentum diam sit amet, mattis sapien. Donec ac erat arcu. Sed sed laoreet ante. Quisque at odio nunc. Praesent pretium, est a sagittis fermentum, neque quam feugiat nisl, eu varius ligula risus et nisl. Donec lacinia placerat risus, eu maximus nisi viverra eu. Quisque sit amet aliquet erat. Morbi non diam nec quam semper laoreet. Integer et quam orci. Curabitur ultrices luctus libero eu ornare. Nunc et lacus id felis elementum laoreet id non tellus. Suspendisse sed elit accumsan, rutrum eros a, accumsan enim.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Vestibulum iaculis, eros sit amet efficitur pharetra, leo lorem varius lectus, fermentum malesuada nisi enim ac leo. Sed viverra mi a faucibus malesuada. Quisque vehicula velit sit amet turpis facilisis, rhoncus vehicula nisl finibus. Curabitur ligula quam, tempus suscipit pretium vitae, maximus at purus. Proin dapibus facilisis elit, vel vulputate orci consequat vitae. Fusce vitae ex nec velit pellentesque luctus. Proin auctor ex condimentum dui porttitor mattis. Proin congue varius enim vel varius. Curabitur eget quam tortor. Mauris ullamcorper quis est eu fermentum.
