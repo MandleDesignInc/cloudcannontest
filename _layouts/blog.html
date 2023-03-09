@@ -11,13 +11,18 @@
         </div>
 
         <div class="row">
-          <div class="col">
-            <ul>
             {% for post in site.posts %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            <div class="col-md-3">
+            <div class="card blog" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{ post.title }}</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="{{ post.url }}" class="btn btn-success">Read More</a>
+            </div>
+            </div>
+            </div>
             {% endfor %}
-            </ul>
-          </div>
         </div>
 
         <div class="row bottomspacer">
