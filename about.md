@@ -2,4 +2,4 @@
 layout: page
 title: About
 ---
-about content goes here
+About content in markdown.&nbsp; This is a test of the visual editor.
