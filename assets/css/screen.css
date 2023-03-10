@@ -100,8 +100,6 @@ h1 {
 .maincontent {
   font-size: 30px;
   text-align: center;
-}
-.maincontent {
   padding-left:10%;
   padding-right:10%;
 }
@@ -131,20 +129,23 @@ h1 {
   height: 200px;
 }
 
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+  column-gap: 50px;
+}
+
 @media (max-width: 767px) {
+    .maincontent {
+      font-size: 22px;
+    }
 		.carousel-inner .carousel-item > div {
 			display: none;
 		}
 		.carousel-inner .carousel-item > div:first-child {
 			display: block;
 		}
-	}
-
-	.carousel-inner .carousel-item.active,
-	.carousel-inner .carousel-item-next,
-	.carousel-inner .carousel-item-prev {
-		display: flex;
-    column-gap: 50px;
 	}
 
 	/* medium and up screens */
