@@ -18,7 +18,10 @@ h1 {
 .nav-link {
   color: #fff;
 }
-.nav-link:focus,.nav-link:hover {
+.navicon {
+  height: 16px;
+}
+.nav-link:focus,.nav-link:hover,.navicon:hover {
   color: #752f78;
 }
 .nav-link:active {
